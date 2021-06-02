@@ -1,4 +1,5 @@
 # 【唯客學院微課程】Web簡介
+
 ### 關於唯客學院：
 
 * [唯客學院網址](https://www.victorgau.com)
@@ -34,7 +35,7 @@
 * Visual Studio Code + Live Server
 * Emmet 簡介
 
-### 3. 專案實作：
+### 3. 自我挑戰：
 
 * 動手修改網路上的免費樣板
 
