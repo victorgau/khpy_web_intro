@@ -10,15 +10,15 @@
 
 ### 1. 文件導覽：
 
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-* [Emmet in Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet)
-* [Emmet 語法參考](https://docs.emmet.io/abbreviations/syntax/)
-* [Emmet 官網](https://emmet.io/)
-* [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+* [Wiki - HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 * [W3Schools](https://www.w3schools.com/)
 * [W3Schools - HTML](https://www.w3schools.com/html/)
 * [W3Schools - CSS](https://www.w3schools.com/css/default.asp)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+* [Emmet in Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet)
+* [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+
 
 ### 2. 實作引導：
 
@@ -43,6 +43,8 @@
 * [Wiki - HTML5](https://zh.wikipedia.org/wiki/HTML5)
 * [W3C - HTML5](https://dev.w3.org/html5/spec-LC/)
 * [MDN - HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [Emmet 官網](https://emmet.io/)
+* [Emmet 語法參考](https://docs.emmet.io/abbreviations/syntax/)
 * [BootStrap 官網](https://getbootstrap.com/)
 * [BootStrap CDN](https://www.bootstrapcdn.com/)
 * [PLACEMAT](https://placem.at/)
