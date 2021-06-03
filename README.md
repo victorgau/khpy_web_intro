@@ -28,12 +28,11 @@
 * CSS 簡介
 * JavaScript 簡介
 * Visual Studio Code 簡介 (編輯器)
-* 對於初學者我們通常可以怎麼開始？ (找個 template 直接來改)
-  * 網路上有一些免費樣板可以用，但是使用時可能要保留版權訊息
+* Emmet 簡介
+* 安裝/使用 Live Server Extension
+* 下載一個免費的樣板來用用看
 * Chrome DevTools 簡介
 * Bootstrap 簡介
-* Visual Studio Code + Live Server
-* Emmet 簡介
 
 ### 3. 自我挑戰：
 
@@ -51,3 +50,9 @@
 * [placeholder.com](https://placeholder.com/)
 * [GeeksforGeeks - Web Development](https://www.geeksforgeeks.org/web-development/)
 * [web.dev - Learning CSS](https://web.dev/learn/)
+
+### 網頁樣板：
+
+* [colorlib.com](https://colorlib.com/)
+* [html5up.net](https://html5up.net/)
+* [startbootstrap.com](https://startbootstrap.com/themes)
