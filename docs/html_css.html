@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML + CSS 範例</title>
+    <style>
+        body {
+            text-align:center;
+        }
+        h1 {
+            margin: 30px 15px 0;
+	        font-weight: 300;
+        }
+        .shrink {
+            transition: transform .2s; /* Animation */
+            margin: 0 auto;
+        }
+
+        .shrink:hover {
+            transform: scale(0.8);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+<body>
+
+<h1>哈囉！<mark>HTML + CSS</mark>！</h1>
+
+<img class="shrink" src="ninja.jpg" />
+
+</body>
+</html>

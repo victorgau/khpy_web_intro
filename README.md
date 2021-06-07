@@ -22,8 +22,7 @@
 
 ### 2. 實作引導：
 
-* 網頁伺服器(Web Server)簡介
-* HTTP 通訊協定
+* [Web簡介 - 投影片](https://bit.ly/3pz6wiD)
 * HTML 簡介
 * CSS 簡介
 * JavaScript 簡介
