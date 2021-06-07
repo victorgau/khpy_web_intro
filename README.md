@@ -19,6 +19,7 @@
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 * [Emmet in Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet)
 * [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
 
 ### 2. 實作引導：
