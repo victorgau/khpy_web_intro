@@ -15,6 +15,7 @@
 * [W3Schools](https://www.w3schools.com/)
 * [W3Schools - HTML](https://www.w3schools.com/html/)
 * [W3Schools - CSS](https://www.w3schools.com/css/default.asp)
+* [W3Schools - CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 * [Emmet in Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet)
