@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>AJAX範例</title>
+</head>
+<body>
+  <div class="container">
+    <h1>SPY股價</h1>
+  </div>
+  <div class="container">
+    <table border="1" class="dataframe table table-striped">
+        <thead>
+          <tr style="text-align: right;">
+            <th></th>
+            <th>Open</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Close</th>
+            <th>Adj Close</th>
+            <th>Volume</th>
+          </tr>
+          <tr>
+            <th>Date</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="spy">
+
+        </tbody>
+    </table>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $.ajax({
+            url: "spy.json",
+            dataType: 'json',
+            type: 'get',
+            cache:false,
+            success: function(data){
+                // console.log(data);
+                var event_data = '';
+                $.each(data, function(index, value){
+                    // console.log(value);
+                    event_data += '<tr>';
+                    event_data += '<th>'+value.Date+'</th>';
+                    event_data += '<td>'+value.Open+'</td>';
+                    event_data += '<td>'+value.High+'</td>';
+                    event_data += '<td>'+value.Low+'</td>';
+                    event_data += '<td>'+value.Close+'</td>';
+                    event_data += '<td>'+value['Adj Close']+'</td>';
+                    event_data += '<td>'+value.Volume+'</td>';
+                    event_data += '</tr>';
+                });
+                $("#spy").append(event_data);
+            },
+            error: function(d){
+                // console.log("error");
+                alert("404. Please wait until the File is Loaded.");
+            }
+        });
+    });
+    </script>
+    
+
+</body>
+</html>
