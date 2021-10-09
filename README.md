@@ -25,7 +25,7 @@
 
 ### 2. 實作引導：
 
-* [Web簡介 - 投影片](https://bit.ly/3pz6wiD)
+* [Web簡介 - 投影片](https://docs.google.com/presentation/d/1UEPMx0G-MYWW2gHZs0Y93L6XwVVg5S5I0QLVsv4A0y4/edit?usp=sharing)
 * HTML 簡介
 * CSS 簡介
 * JavaScript 簡介
